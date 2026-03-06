@@ -56,7 +56,7 @@ Architecture components:
 - Softmax output layer for digit prediction
 
 <p align="center">
-  <img src="figures/ocnn_architecture.png" width="600"/>
+  <img src="figures/ocnn_architecture_final.png" width="600"/>
 </p>
 
 ---
