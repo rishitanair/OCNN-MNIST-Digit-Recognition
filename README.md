@@ -119,4 +119,69 @@ Training convergence comparison shows that the optimized CNN achieves smoother v
 
 # Installation
 
-Clone the repository:
+Clone the repository: 
+
+git clone https://github.com/rishitanair/OCNN-MNIST-Digit-Recognition.git
+
+cd OCNN-MNIST-Digit-Recognition
+
+
+Install required dependencies:
+
+pip install -r requirements.txt
+
+---
+
+# Usage
+
+Train baseline model:
+
+python src/train_baseline.py
+
+Train optimized model:
+
+python src/train_ocnn.py
+
+Evaluate models:
+
+python src/evaluate_models.py
+
+---
+
+# Project Structure
+
+OCNN-MNIST-Digit-Recognition
+│
+├── figures
+│ ├── mnist_samples.png
+│ ├── ocnn_architecture.png
+│ ├── baseline_accuracy.png
+│ ├── ocnn_accuracy.png
+│ ├── model_comparison.png
+│ ├── confusion_matrix_ocnn.png
+│ ├── misclassified_examples.png
+│ └── convergence_comparison.png
+│
+├── src
+│ ├── data_loader.py
+│ ├── train_baseline.py
+│ ├── train_ocnn.py
+│ ├── evaluate_models.py
+│ ├── error_analysis.py
+│ └── convergence_plot.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+---
+
+# Future Work
+
+Potential improvements include:
+
+- Testing on more complex datasets
+- Applying data augmentation techniques
+- Exploring transformer-based architectures
+- Deploying the model as a web application
+
