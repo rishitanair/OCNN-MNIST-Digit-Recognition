@@ -120,36 +120,38 @@ Training convergence comparison shows that the optimized CNN achieves smoother v
 # Installation
 
 Clone the repository: 
-
+```bash
 git clone https://github.com/rishitanair/OCNN-MNIST-Digit-Recognition.git
 
 cd OCNN-MNIST-Digit-Recognition
-
+```
 
 Install required dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 ---
 
 # Usage
 
 Train baseline model:
-
+```bash
 python src/train_baseline.py
+```
 
 Train optimized model:
-
+```bash
 python src/train_ocnn.py
+```
 
 Evaluate models:
-
+```bash
 python src/evaluate_models.py
-
+```
 ---
 
 # Project Structure
-
+```bash
 OCNN-MNIST-Digit-Recognition
 │
 ├── figures
@@ -173,7 +175,7 @@ OCNN-MNIST-Digit-Recognition
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
 ---
 
 # Future Work
